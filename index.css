@@ -7,6 +7,11 @@
     background-color: purple; 
     color: yellow;
   }
+  nav{
+    display: flex;
+    float: left;
+    width: 100%;
+  }
   h1 {
     justify-content: left;
     color: yellow;
@@ -35,8 +40,9 @@
     width: 85%;
   }
   time {
-    color: yellow;
-    float: right;
+    color: pink;
+    display: flex;
+    float: top;
     font-size: 20px;
   }
   .list {
