@@ -9,6 +9,11 @@
     background-color: purple; 
     color: yellow;
   }
+  ol {
+    list-style: none;
+    background: blueviolet;
+    color: white;
+  }
   .nav {
     display: flex;
     justify-content: flex-end;
@@ -25,10 +30,24 @@
     display: flex;
     margin-right: 2rem;
   }
-  ol {
-    list-style: none;
-    background: blueviolet;
-    color: white;
+  @media (max-width: 28.75em) {
+    .nav {
+      justify-content: center;
+    }
+  
+    .navbar {
+      margin: 0 1rem;
+    }
+  }
+  
+  .navbar a {
+    display: block;
+    font-size: 2.2rem;
+    padding: 2rem;
+  }
+  
+  .navbar a:hover {
+    background: var(--main-blue);
   }
   h1 {
     justify-content: left;
@@ -71,6 +90,7 @@
   }
   h2 {
     color: yellow;
+    margin-bottom: 38px;
   }
   ul {
     margin: 0px;
@@ -79,6 +99,7 @@
     background-color: pink;
     width: 98.5%;
     font-size: medium;
+    padding: 10px;
   }
   li{
     background-color: pink;
