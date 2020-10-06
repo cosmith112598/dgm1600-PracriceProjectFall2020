@@ -51,6 +51,9 @@
     background-color: pink;
     height: 50%;
   }
+  ol {
+    list-style: none;
+  }
   h2 {
     color: yellow;
   }
@@ -60,7 +63,7 @@
     color: #000;
     background-color: pink;
     width: 98.5%;
-    fpnt-size: medium;
+    font-size: medium;
   }
   li{
     background-color: pink;
