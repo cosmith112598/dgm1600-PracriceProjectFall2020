@@ -51,7 +51,7 @@
   
   h1 {
     justify-content: left;
-    color: yellow;
+    color: whitesmoke;
   }
   .headerPic {
     max-height: 280px;
@@ -73,24 +73,26 @@
   }
   .profPic {
     max-height: 190px;
+    margin: 15px;
   }
   .aboutMe {
     float: left;
     width: 85%;
   }
   time {
-    color: white;
+    color: whitesmoke;
     display: flex;
     position: top;
     justify-content: right;
-    font-size: 20px;
+    font-size: 20px; 
+    margin-bottom: 10px;
   }
   .list {
     height: 50%;
   }
   h2 {
-    color: yellow;
-    margin-bottom: 38px;
+    color: #000;
+    background-color: pink;
   }
   ul {
     margin: 0px;
@@ -199,6 +201,7 @@
     max-height: 86px;
    justify-content: center;
    margin-left: 5px;
+   padding: 5px;
     
   }
 
