@@ -9,32 +9,38 @@
     background-color: rgb(146, 96, 182);
     color: yellow;
   }
+
+  
   .nav {
     display: flex;
-    justify-content: flex-end;
     align-items: center;
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    background: blueviolet;
+    width: 100%; 
+    background: rebeccapurple;
     color: white;
-    box-shadow: 0 2px 0 #000;
-    z-index: 10;
     list-style: none;
+    height: 80px;
   }
-    .navbar {
+  .nav li {
+    display: inline-block;
+    background-color: rebeccapurple;
+    color: #fff;
+    justify-content: space-evenly;
+  }
+  nav a {
+    color: whitesmoke;
+    background-color: rebeccapurple;
+    padding: 10px;
+    font-size: 22px;
+    font-weight: bolder;
+  }
+    #navbar {
     display: flex;
     list-style: none;
-    justify-content: space-around;
+    justify-content: flex-start;
     margin-right: 2rem;
-    background: blueviolet;
+    background: rebeccapurple;
   } 
-  .navbar a {
-    background-color: white;
-    color: #000;
-    text-decoration: none;
-  }
+
   @media (max-width: 28.75em) {
     .nav {
       justify-content: center;
@@ -45,12 +51,7 @@
       margin: 0 1rem;
       
     }
-  }
-  ol {
-    list-style: none;
-    background: blueviolet;
-    color: white;
-  }
+  } 
   
   h1 {
     justify-content: left;
@@ -116,9 +117,9 @@
     padding: 10px;
     height: 100%;
   }
-/* li{
+  li{
     background-color: pink;
-  } */
+  } 
   .projects {
     display: flex;
     justify-content: space-evenly;
@@ -168,7 +169,6 @@
     color: #FFF;
     justify-content: center;
     display: flex;
-   /* background-color: salmon;*/
     
   }
   h4 {
