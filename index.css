@@ -1,12 +1,12 @@
 * {
-    background-color: purple;
+    background-color:rgb(146, 96, 182);
     margin: 0px;
     padding: 0px;
   }
   header {
     display: flex;
     justify-content: center;
-    background-color: purple; 
+    background-color: rgb(146, 96, 182);
     color: yellow;
   }
   ol {
@@ -195,8 +195,9 @@
     max-height: 86px;
     
   }
-  h5 {
-    background-color: purple;
+
+  footer {
+    background-color: rgb(146, 96, 182);
     color: #000000;
     display: flex;
     justify-content: center;
