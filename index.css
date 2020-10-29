@@ -191,8 +191,9 @@
   }
   .java {
     background-color: pink;
-   display: flex;
+    display: flex;
     max-height: 86px;
+   justify-content: center;
     
   }
 
