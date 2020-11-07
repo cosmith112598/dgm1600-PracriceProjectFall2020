@@ -19,3 +19,4 @@ planets.forEach(function(planet) {
 
     mainPiece.appendChild(planetDiv)
 });
+// fix this code!!!!

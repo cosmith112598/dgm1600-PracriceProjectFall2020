@@ -53,11 +53,11 @@
   } 
    #welcome-section {
     width: 100%;
-    height: 25vh;
+    height: 50vh;
    }
 
    .profPic {
-     height: 200px;
+     height: 350px;
      width: 200px;
      margin-left: 525px;
    }
