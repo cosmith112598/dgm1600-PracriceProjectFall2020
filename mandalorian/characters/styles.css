@@ -1,6 +1,8 @@
 * {
     margin: 0;
     box-sizing: border-box;
+    background-image: linear-gradient(270deg, #000 25%, #7308b9 100%);
+    color: #FFF;
     
 }
 
@@ -14,7 +16,6 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    background-image: linear-gradient(270deg, #000 0%, #7308b9 100%);
     height: 100%;
 }
 
@@ -25,9 +26,5 @@ figure {
 }
 
 figure img {
-    max-height: 15rem;
-}
-figcaption {
-    background-color: grey;
-    text-align: center;
+    max-height: 14rem;
 }
