@@ -1,19 +1,22 @@
 * {
     margin: 0px;
     box-sizing: border-box;
+    background-image: linear-gradient(150deg, rgb(124, 5, 5) 50%, black 50%); 
+    color: floralwhite;
+    border: floralwhite solid 0.5px;
 }
 
 main {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-}
+    
 
 figure {
     margin: 1rem;
 }
 
 figcaption {
-    background-color: aqua;
+    background-color: grey;
     text-align: center;
 }
