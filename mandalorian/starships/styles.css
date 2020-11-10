@@ -1,6 +1,8 @@
 :root {
     margin: 0;
     box-sizing: border-box;
+    background-image: linear-gradient(150deg, rgb(124, 5, 5) 65%, black 80%);
+    color: floralwhite;
 }
 
 .container {
@@ -11,15 +13,17 @@
     margin: 8rem 5rem 0 10rem;
 }
 
-header, footer {
+header, footer, h1, p {
     display: flex;
     justify-content: center;
-    font-size: 1.75rem;
+    font-size: 3.5px;
+    color: floralwhite;
 }
 
 a {
     text-decoration: none;
-    font-size: 1.5rem;
+    font-size: 2.5rem;
+    color: floralwhite;
 }
 
 li {
