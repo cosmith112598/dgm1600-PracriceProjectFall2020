@@ -15,7 +15,7 @@
     flex-wrap: wrap;
     justify-content: space-around;
     background-image: linear-gradient(270deg, #000 0%, #7308b9 100%);
-    height: 100vh;
+    height: 100%;
 }
 
 figure {
@@ -25,7 +25,7 @@ figure {
 }
 
 figure img {
-    max-height: 12rem;
+    max-height: 15rem;
 }
 figcaption {
     background-color: grey;
