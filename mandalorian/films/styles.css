@@ -5,11 +5,41 @@
     color: floralwhite;
     border: floralwhite solid 0.5px;
 }
+#navbar {
+    display: flex;
+    justify-content: flex-end;
+    box-shadow: 0 2px 0 rgba(0, 0, 0, 0.4);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 10;
+}
 
+.nav-list a {
+  display: block;
+  font-size: 2.2rem;
+  padding: 2rem;
+}
+
+.nav-list a:hover {
+    background: grey;
+  }
+
+.nav-list {
+    display: flex;
+    list-style: none;
+    margin-right: 2rem;
+}
+header {
+    margin-top: 114px;
+}
 main {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    margin: 0px;
+}
     
 
 figure {
