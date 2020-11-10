@@ -11,6 +11,11 @@
     justify-content: space-around;
     margin: 1rem;
 }
+header {
+    display: flex;
+    justify-content: center;
+    font-size: 3.5rem;
+}
 
 #main {
     display: flex;
