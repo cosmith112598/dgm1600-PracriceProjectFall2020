@@ -1,4 +1,4 @@
-import { films } from '../data/films.js'
+import { films } from '../../JS-Files/films'
 
 const main = document.querySelector('main')
 

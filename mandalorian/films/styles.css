@@ -1,13 +1,14 @@
 * {
     margin: 0px;
     box-sizing: border-box;
-    background-image: linear-gradient(150deg, rgb(124, 5, 5) 30%, black 100%); 
+    background-image: linear-gradient(150deg, rgb(124, 5, 5) 50%, black 50%); 
     color: floralwhite;
     border: floralwhite solid 0.5px;
 }
 #navbar {
     display: flex;
     justify-content: flex-end;
+    background-image: linear-gradient(135deg, rgb(124, 5, 5) 0%, black 80%);
     box-shadow: 0 2px 0 rgba(0, 0, 0, 0.4);
     position: fixed;
     top: 0;
@@ -19,16 +20,17 @@
 .nav-list a {
   display: block;
   font-size: 2.2rem;
-  padding: 1.5rem;
+  padding: 2rem;
 }
 
 .nav-list a:hover {
-    background: grey;
+    background: rebeccapurple;
   }
 
 .nav-list {
     display: flex;
     list-style: none;
+    margin-right: 2rem;
 }
 header {
     margin-top: 114px;
@@ -37,7 +39,6 @@ main {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    margin: 0px;
 }
     
 
