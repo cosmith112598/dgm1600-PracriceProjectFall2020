@@ -1,9 +1,8 @@
 * {
     margin: 0px;
     box-sizing: border-box;
-    background-image: linear-gradient(150deg, rgb(124, 5, 5) 50%, black 50%); 
+    background-image: linear-gradient(250deg, rgb(124, 5, 5) 40%, black 80%); 
     color: floralwhite;
-    border: floralwhite solid 0.5px;
 }
 #navbar {
     display: flex;
@@ -24,7 +23,7 @@
 }
 
 .nav-list a:hover {
-    background: rebeccapurple;
+    background: grey;
   }
 
 .nav-list {
@@ -39,6 +38,8 @@ main {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    font-size: 36px;
+    border: floralwhite solid 0.5px;
 }
     
 
@@ -47,6 +48,6 @@ figure {
 }
 
 figcaption {
-    background-color: grey;
-    text-align: center;
+    display: flex;
+    justify-content: center;
 }
