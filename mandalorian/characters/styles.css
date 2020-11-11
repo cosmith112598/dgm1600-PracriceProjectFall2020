@@ -5,7 +5,33 @@
     color: #FFF;
     
 }
+#navbar {
+    display: flex;
+    justify-content: flex-end;
+    background-image: linear-gradient(135deg, #7308b9 0%, black 80%);
+    box-shadow: 0 2px 0 rgba(0, 0, 0, 0.4);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 10;
+}
 
+.nav-list a {
+  display: block;
+  font-size: 2.2rem;
+  padding: 2rem;
+}
+
+.nav-list a:hover {
+    background: grey;
+  }
+
+.nav-list {
+    display: flex;
+    list-style: none;
+    margin-right: 2rem;
+}
 .mainHeader {
     display: flex;
     justify-content: space-around;
@@ -15,6 +41,11 @@ header {
     display: flex;
     justify-content: center;
     font-size: 3.5rem;
+    margin-top: 114px;
+}
+button {
+    padding: 1rem;
+    font-size: 24px;
 }
 
 #main {
